@@ -1,0 +1,10 @@
+{
+  "name": "projeto-animais",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Projeto para aprender TypeScript",
+  "scripts": {
+    "start": "npx tsc && node ./dist/index.js"
+  }
+}
