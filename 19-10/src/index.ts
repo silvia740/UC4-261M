@@ -29,29 +29,29 @@ Nao precisa de nenhum metodo, exceto o constructor.
 */
 
 
-import { Pokemon } from "./Pokemon"
-import { Poder } from "./Poder"
+// import { Pokemon } from "./Pokemon"
+// import { Poder } from "./Poder"
 
-// Criando dois poderes
-const poder1 = new Poder("Choque do Trovão", 30)
-const poder2 = new Poder("Lança-Chamas", 25)
+// // Criando dois poderes
+// const poder1 = new Poder("Choque do Trovão", 30)
+// const poder2 = new Poder("Lança-Chamas", 25)
 
-// Criando dois Pokémons
-const pikachu = new Pokemon("Pikachu", 100, 30, poder1)
-const charmander = new Pokemon("Charmander", 100, 25, poder2)
+// // Criando dois Pokémons
+// const pikachu = new Pokemon("Pikachu", 100, 30, poder1)
+// const charmander = new Pokemon("Charmander", 100, 25, poder2)
 
-// Pequena batalha
-pikachu.falar()
-charmander.falar()
+// // Pequena batalha
+// pikachu.falar()
+// charmander.falar()
 
-pikachu.atacar(charmander)
-charmander.atacar(pikachu)
+// pikachu.atacar(charmander)
+// charmander.atacar(pikachu)
 
-pikachu.atacarComPoder(charmander)
-charmander.atacarComPoder(pikachu)
+// pikachu.atacarComPoder(charmander)
+// charmander.atacarComPoder(pikachu)
 
-console.log(pikachu)
-console.log(charmander)
+// console.log(pikachu)
+// console.log(charmander)
 
 
 
@@ -77,3 +77,38 @@ console.log(charmander)
  O 'private' NÂO permite que o atributo ou método seja acessando e modificado de qualquer jeito. Para fazer isso,precisamos chamar os métodos da classe.
  
  */
+// nome guarda um texto.
+// const nome: string = "Pipoca";
+
+// import { Personagem } from "./Personagem";
+
+// // energia guarda um número.
+// // const energia: number = 50;
+
+// // console.log mostra informações no terminal.
+// // console.log("Nome:", nome);
+// // console.log("Energia:", energia);
+
+// /*
+// Criem uma classe Personagem que tenha:
+// nome
+// vida
+// dinheiro
+
+// Coloque todos os atributoscomo 'private'
+// Crie um método que mostra a vida(exemplo: mostrarVida())
+// Crie um método que modifica a vida(exemplo:mudarVida(vida:number))
+// */
+
+
+// const personagem:Personagem = new Personagem("Fulaninho", 100, 10)
+// console.log(personagem.getVida())// 100
+// personagem.setVida(50)
+// console.log(personagem.getVida())//0
+
+// personagem.setNome("Jo")
+// console.log(personagem.getNome())
+
+
+
+
