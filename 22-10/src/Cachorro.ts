@@ -7,9 +7,6 @@ crie os métodos 'getteres' e 'setteres'
 crie 3 cachorros no index e chame seus métodos
 */
 
-
-
-
 export class Cachorro { 
    private nome:string 
    private raca:string 
