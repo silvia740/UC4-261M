@@ -6,11 +6,11 @@ export class Chalupa extends Navio {
         super(nome, 60, 10, 60, 100, 2);
     }
 
-    public override navegar(): void {
+    public navegar(): void {
         console.log(`${this.nome} utiliza sua agilidade para realizar manobras rápidas!`);
     }
 
-    public override atacar(): void {
+    public atacar(): void {
         console.log(
             `${this.nome} dispara seus poucos canhões e tenta escapar rapidamente!`
         );

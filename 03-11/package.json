@@ -5,6 +5,6 @@
   "type": "commonjs",
   "description": "Projeto para aprender TypeScript",
   "scripts": {
-    "start": "npx tsc && node ./dist/index.js"
+    "start": "npx tsc && node ./dist/main.js"
   }
 }

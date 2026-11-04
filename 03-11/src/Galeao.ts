@@ -9,11 +9,11 @@ QuantidadeIntermediáriaCanhao:number
         super(nome, 60, 50, 200, 30, 20);
     }
 
-    public override navegar(): void {
+    public navegar(): void {
         console.log(`${this.nome} avança lentamente pelo mar!`);
     }
 
-    public override atacar(): void {
+    public atacar(): void {
         console.log(`${this.nome} dispara uma poderosa salva de canhões!`);
     }
 
