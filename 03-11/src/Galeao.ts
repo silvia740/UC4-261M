@@ -6,7 +6,7 @@ VelocidadeAlta:number
 ResistênciaIntermediária:number
 QuantidadeIntermediáriaCanhao:number
     constructor(nome: string) {
-        super(nome, 60, 50, 200, 30, 20);
+        super(nome, 50, 60, 200, 30, 20);
     }
 
     public navegar(): void {

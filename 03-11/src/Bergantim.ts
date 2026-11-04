@@ -3,7 +3,7 @@ import { Navio } from "./Navio";
 export class Bergantim extends Navio{
      
     constructor(nome: string) {
-        super(nome, 60, 20, 100, 80, 8);
+        super(nome, 20, 60, 100, 80, 8);
     }
 
     public navegar(): void {

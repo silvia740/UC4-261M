@@ -3,7 +3,7 @@ import { Navio } from "./Navio";
 export class Chalupa extends Navio {
 
     constructor(nome: string) {
-        super(nome, 60, 10, 60, 100, 2);
+        super(nome, 10, 100, 100, 50, 2);
     }
 
     public navegar(): void {
