@@ -4,7 +4,7 @@ exports.Chalupa = void 0;
 const Navio_1 = require("./Navio");
 class Chalupa extends Navio_1.Navio {
     constructor(nome) {
-        super(nome, 60, 10, 60, 100, 2);
+        super(nome, 10, 100, 100, 50, 2);
     }
     navegar() {
         console.log(`${this.nome} utiliza sua agilidade para realizar manobras rápidas!`);

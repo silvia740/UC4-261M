@@ -8,7 +8,7 @@ class Galeao extends Navio_1.Navio {
     ResistênciaIntermediária;
     QuantidadeIntermediáriaCanhao;
     constructor(nome) {
-        super(nome, 60, 50, 200, 30, 20);
+        super(nome, 50, 60, 200, 30, 20);
     }
     navegar() {
         console.log(`${this.nome} avança lentamente pelo mar!`);
